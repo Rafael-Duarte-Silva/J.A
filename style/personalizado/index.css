@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+#conteudo-pagina{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 3.5vh;
+    margin-inline: 2.5vh;
+
+    width: auto;
+    height: auto;
+}
+
+.banner{
+    width: 100%;
+    height: 50vh;
+}
+
+#sobre{
+    font-size: 4vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    color: white;
+}
+
+#loja{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: rgb(65, 65, 65);
+    border: 0.6vh red solid;
+    border-radius: 5vh;
+}
+
+#setor-loja{
+    width: 80vh;
+}
+
+#loja-foto{
+    width: 80vh;
+    border-radius: 5vh 0vh 0vh 0vh;
+}
+
+#loja-informacoes{
+    text-align: center;
+    color: white;
+    font-size: 4vh;
+    margin-inline: 5vh;
+    margin-top: 10vh;
+}
+
+iframe{
+    border-radius: 0vh 5vh 5vh 0vh;
+}

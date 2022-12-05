@@ -1,0 +1,19 @@
+footer{
+    margin-top: 20%;
+
+    width: auto;
+    height: 19vh;
+    
+    background-color: rgb(25, 24, 26);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-texto{
+    display: inline-block;
+    
+    margin-left: 2vh;
+    
+    font-size: 1.7vh;
+    font-family: "Nunito";
+    color: white;
+}
