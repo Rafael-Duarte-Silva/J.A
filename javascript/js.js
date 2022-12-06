@@ -58,7 +58,7 @@ function criar(){
         document.getElementById("produtos" + n).appendChild(produtos_info);
 
         const produto_nome = document.createElement("h1");
-        produto_nome.innerHTML = "Pelicula";
+        produto_nome.innerHTML = "Samsung";
         produto_nome.style.fontSize = "10vh";
         produto_nome.style.marginTop = "5vh";
         produto_nome.style.marginLeft = "5vh";
