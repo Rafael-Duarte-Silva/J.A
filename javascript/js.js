@@ -76,14 +76,14 @@ function criar(){
         document.getElementById("produtos-info" + n).appendChild(setor_preco);
 
         const desconto = document.createElement("s");
-        desconto.innerHTML = "R$99,90";
+        desconto.innerHTML = "R$1.909,90";
         desconto.style.fontSize = "3vh";
         desconto.style.opacity = "0.4";
         desconto.setAttribute('id', 'desconto' + n);
         document.getElementById("setor-preco" + n).appendChild(desconto);
 
         const preco = document.createElement("price");
-        preco.innerHTML = "R$79,90";
+        preco.innerHTML = "R$1.679,90";
         preco.style.fontSize = "5vh";
         preco.style.marginTop = "1.2vh";
         preco.setAttribute('id', 'preco' + n);
