@@ -1,7 +1,7 @@
 if(categoria_nome.normalize() == categoria_nome.normalize()){
     const pelicula = document.getElementById("item-1");
 
-    const imagens = ["imagens/produtos/pelicula.png"];
+    const imagens = ["imagens/produtos/pelicula.jpg"];
 
     for(let i = 0; i < 6; i++){
         n++;
